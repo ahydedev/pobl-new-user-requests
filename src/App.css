@@ -1,0 +1,165 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@font-face {
+    font-family: SofiaProLight;
+    font-display: block;
+    src: url('./font/sofiapro-light.otf') format('opentype');
+}
+
+.App-logo {
+    width: 14rem;
+    margin: 3rem;
+}
+
+.app {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    height: 100vh;
+    text-align: center;
+    line-height: 2rem;
+    font-family: SofiaProLight, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.new-starter-components {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-width: 60%;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color:rgb(44, 48, 61);
+    line-height: 1.4;
+    font-size: 1.5rem;
+}
+
+h5 {
+    margin-bottom: 1rem;
+    color:rgb(44, 48, 61);
+    line-height: 1.4;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.request-form {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 35%;
+            flex: 1 0 35%;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(19,166,174,255)), to(rgba(7,95,151,255)));
+    background: -o-linear-gradient(left, rgba(19,166,174,255), rgba(7,95,151,255));
+    background: linear-gradient(to right, rgba(19,166,174,255), rgba(7,95,151,255));
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 3px;
+}
+
+.form-input {
+    display: block;
+    margin: 0 auto 1rem auto;
+    padding: 0.5rem;
+    height: 2rem;
+    width: 80%;
+}
+
+.submit-btn {
+    padding: 0.5rem 1rem;
+    background: #fff;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.requests-list {
+    -webkit-box-flex: 1;
+        -ms-flex: 0 0 80%;
+            flex: 0 0 80%;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(231,58,133,255)), to(rgba(136,62,132,255)));
+    background: -o-linear-gradient(left, rgba(231,58,133,255), rgba(136,62,132,255));
+    background: linear-gradient(to right, rgba(231,58,133,255), rgba(136,62,132,255));
+    font-size: 0.9rem;
+    text-align: left;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 3px;
+}
+
+.spaced{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.requests-list-header {
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+
+.request {
+    margin-top: 1rem;
+}
+
+.request-item {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.request-item-btn {
+    padding: 0.25rem 0.5rem;
+    background: none;
+    border: 1px solid;
+    border-radius: 50px;
+    margin: 0 0.25rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.filters {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+}
+
+.filter-btn {
+    padding: 0.25rem 0.5rem;
+    background: #fff;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    margin: 0 0.25rem;   
+}
+
+@media (max-width: 1249px) {
+    .new-starter-components {
+        display: block;
+    }
+}
